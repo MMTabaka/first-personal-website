@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Milosz Tabaka">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Milosz Tabaka</title>
+  <link rel="stylesheet" href="./css/mobileStyles.css">
+  <link rel="stylesheet" href="./css/largeScreen.css" media="screen and (min-width: 1000px)">
+</head>
+
+<div id=wrapper>
+  <header>
+    <h1 id=banner><a href="index.html">Milosz Tabaka</a></h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li class=name_desktop><a href="index.html">Milosz Tabaka</a></li>
+      <li><a href="degree.html">Degree</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="canvas.html">Data</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Data</h1>
+    <div id="main_canvas">
+      <div>
+        <table>
+          <caption>Table of Data (time spent in minutes)</caption>
+          <tr>
+            <td>&nbsp;</td>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+          </tr>
+          <tr>
+            <th>Whatsapp</th>
+            <td>5</td>
+            <td>100</td>
+            <td>30</td>
+            <td>45</td>
+            <td>5</td>
+            <td>12</td>
+            <td>56</td>
+          </tr>
+          <tr>
+            <th>Messenger</th>
+            <td>71</td>
+            <td>9</td>
+            <td>67</td>
+            <td>115</td>
+            <td>9</td>
+            <td>10</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <th>Instagram</th>
+            <td>80</td>
+            <td>34</td>
+            <td>111</td>
+            <td>12</td>
+            <td>72</td>
+            <td>73</td>
+            <td>78</td>
+          </tr>
+          
+        </table>
+      </div>
+      <div>
+        <canvas id="canvas" width="1000" height="1150"></canvas>
+        <p id="canvas_buttons">
+          <button name="button_pie" id="button_pie">Pie</button>
+          <button name="button_bar" id="button_bar">Bar</button>
+          <button name="button_line" id="button_line">Line</button>
+          <button name="button_colour" id="button_colour">Change Colour</button>
+        </p>
+      </div>
+    </div>
+    <script src="./js/canvas.js"></script>
+  </main>
+
+  <footer id="footer">
+    <p class="accessibility_link"><a href="accessibility.html">Accessibility</a></p>
+    <p class="copyright">&copy; Milosz Tabaka, 2020</p>
+  </footer>
+
+</div>
+
+</html>

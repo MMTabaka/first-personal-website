@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Milosz Tabaka">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Milosz Tabaka</title>
+  <link rel="stylesheet" href="./css/mobileStyles.css">
+  <link rel="stylesheet" href="./css/largeScreen.css" media="screen and (min-width: 1000px)">
+</head>
+
+<div id=wrapper>
+  <header>
+    <h1 id=banner><a href="index.html">Milosz Tabaka</a></h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li class=name_desktop><a href="index.html">Milosz Tabaka</a></li>
+      <li><a href="degree.html">Degree</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="canvas.html">Data</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+  </nav>
+
+  <main class="contact">
+    <div>
+      <h1>Contact</h1>
+      <div class="address">
+        <p>Milosz Tabaka</p>
+        <p>Department of Computer Science</p>
+        <p>The University of Sheffield</p>
+        <p>Regent Court</p>
+        <p>211 Portobello</p>
+        <p>Sheffield</p>
+        <p>S1 4DP</p>
+        <p>UK</p>
+        <br>
+      </div>
+    </div>
+    <div contact="email_form">
+      <form name="myform" action="https://www.dcs.shef.ac.uk/cgi-intranet/public/FormMail.php" method="POST">
+        <input type="hidden" name="recipients" value="MMTabaka1@sheffield.ac.uk">
+        <fieldset>
+          <legend>Contact Form:</Legend>
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Type your email..." maxlength="40" size="23"
+              required>
+          </p>
+          <p>
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments" rows="5" cols="30" placeholder="Type your comments..."
+              required></textarea>
+          </p>
+          <p>
+            <input type="submit" name="submit" id="submit" value="Submit">
+          </p>
+        </fieldset>
+      </form>
+    </div>
+  </main>
+
+  <footer id="footer">
+    <p class="accessibility_link"><a href="accessibility.html">Accessibility</a></p>
+    <p class="copyright">&copy; Milosz Tabaka, 2020</p>
+  </footer>
+
+</div>
+
+</html>

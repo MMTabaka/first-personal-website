@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Milosz Tabaka">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Milosz Tabaka</title>
+  <link rel="stylesheet" href="./css/mobileStyles.css">
+  <link rel="stylesheet" href="./css/largeScreen.css" media="screen and (min-width: 1000px)">
+</head>
+
+<div id=wrapper>
+  <header>
+    <h1 id=banner><a href="index.html">Milosz Tabaka</a></h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li class=name_desktop><a href="index.html">Milosz Tabaka</a></li>
+      <li><a href="degree.html">Degree</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="canvas.html">Data</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="quiz_main">
+    <h1>Quiz</h1>
+    <p>What do you think these japanese characters mean in English?</p>
+    <div class="quiz">
+      <div class="quiz_answers">
+        <figure>
+          <img id="japan_char" src="./images/japan.jpg" alt="a japanese character" width="250">
+        </figure>
+        <p>god</p>
+        <p id="correct_one">Japan</p>
+        <p>samurai</p>
+        <button id="reveal_one">Reveal Answer</button>
+      </div>
+      <div class="quiz_answers">
+        <figure>
+          <img id="samurai_char" src="./images/god.jpg" alt="a japanese character" width="250">
+        </figure>
+        <p>Japan</p>
+        <p>samurai</p>
+        <p id="correct_two">god</p>
+        <button id="reveal_two">Reveal Answer</button>
+      </div>
+      <div class="quiz_answers">
+        <figure>
+          <img id="god_char" src="./images/samurai.jpg" alt="a japanese character" width="250">
+        </figure>
+        <p id="correct_three">samurai</p>
+        <p>god</p>
+        <p>Japan</p>
+        <button id="reveal_three">Reveal Answer</button>
+      </div>
+    </div>
+
+    <script src="./js/quiz.js"></script>
+  </main>
+
+  <footer id="footer">
+    <p class="accessibility_link"><a href="accessibility.html">Accessibility</a></p>
+    <p class="copyright">&copy; Milosz Tabaka, 2020</p>
+  </footer>
+
+</div>
+
+</html>

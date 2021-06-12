@@ -1,0 +1,387 @@
+body {
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 280px;
+  /*text-align: justify; /* what?*/
+  word-spacing: 1px;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+}
+
+/* NAVIGATION */
+nav {
+  margin: 0;
+  padding: 2%;
+  border: none;
+  background-color: rgb(250, 246, 194);
+  color: rgb(90, 90, 90);
+  font-size: 1rem;
+  text-align: justify;
+}
+
+nav ul {  
+  margin: 0;
+  padding: 0;
+  padding-left: 1%;
+  padding-right: 1%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  
+
+}
+
+nav ul li {
+  display: inline;
+  font-size: 1em;
+  padding: 4%;
+}
+
+nav a {
+  text-decoration: none;
+  outline: none;
+}
+
+nav a:link { color:black; }
+
+nav a:visited { color: black; }
+
+nav a:hover { color: rgb(190, 190, 190); }
+
+.name_desktop {
+  display: none;
+}
+
+#banner {
+  background-color: rgb(250, 246, 194);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+#banner a{
+  text-decoration: none;
+  outline: none;
+}
+
+#banner a:link { color:black; }
+
+#banner a:visited { color: black; }
+
+
+
+/* MAIN */
+main {
+  padding: 0.5em 5%;
+  font-size: 1.1rem;
+}
+main h1 {
+  color: rgb(92, 86, 0);
+}
+
+main a:link { color:rgb(102, 180, 12); }
+main a:visited { color:rgb(102, 180, 12); }
+
+
+
+/* FOOTER */
+#footer {
+  padding: 0.5rem 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: smaller;
+  clear: both;
+}
+.accessibility_link {
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 1rem;
+}
+
+
+footer a:link { color: rgb(250, 129, 129); }
+footer a:visited { color:rgb(250, 129, 129); }
+
+.copyright {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  align-items: center;
+}
+
+/*INDEX*/
+
+figure {
+  margin-left: auto;
+  margin-right: auto;  
+  }
+  
+  #profile {
+    display: flex;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 600px;
+    max-width: 100%;
+  }
+  
+  #hobby {
+    display: flex;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 650px;
+    max-width: 100%;
+  }
+
+
+
+/*DEGREE*/
+.degree p {
+  text-align: center;
+}
+.modules {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modules div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  border: 1px solid rgb(212, 211, 211);
+  padding: 3%;
+  margin: 10px;
+}
+
+.modules figure{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.modules img {
+  max-width: 100%;
+  width: 600px;
+}
+
+
+/*QUIZ*/
+
+.quiz  {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.quiz figure {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+}
+
+.quiz_main p {
+  text-align: center;
+}
+
+.quiz p {
+  padding: 3%;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.quiz button {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+
+.quiz_answers p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 5px 0 5px 0;
+  font-size: 1.3em;
+}
+
+.quiz div {
+  padding: 3%;
+  align-self: flex-end;
+  border: 1px solid gray;
+  margin: 3px;
+}
+
+.quiz_main img {
+  display: flex;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 650px;
+    max-width: 100%;
+}
+
+/*CANVAS*/
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+  padding: 10%;
+}
+
+table caption {
+  padding: 3%;
+  caption-side: bottom;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 2px;
+}
+
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  max-width: 100%;
+  display: block;
+}
+
+#canvas_buttons{
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+#canvas_buttons button {
+  width: 100px;
+  padding: 2%;
+  font-size: large;
+  margin: 3px;
+}
+
+/*CONTACT*/
+
+.contact {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4rem;
+}
+
+.contact h1 {
+  padding-bottom: 30px;
+}
+
+.contact p{
+  padding-left: 5%;
+  text-align: justify;
+  text-justify: none;
+}
+
+.address :first-child {
+  font-weight: 600;
+}
+
+form {
+  padding-left: 0;
+  color: rgb(131, 122, 5);
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  width: 150px;
+  height: 25px;
+  font-size: 15px;
+}
+
+form textarea {
+  width: 90%;
+  font-size: 15px;
+  height: 150px;
+}
+
+
+/* MEDIA QUERIES */
+
+/* For screen resolution 400px - 699px */
+@media screen and (min-width: 400px) {
+  #banner { font-size: 1.7rem; }
+  nav ul li { font-size: 1.3em;}
+  main { font-size: 1.2em;}
+  .accessibility_link { font-size: 1.4em;}
+  table { font-size: 18px; }
+  th, td { padding: 3px;}
+  .quiz_answers p { font-size: 1.2em;}
+  .quiz button {margin-top: 1.5em;}
+}
+
+/* For screen resolution 700px - 999px */
+@media screen and (min-width: 700px) {
+  #banner { font-size: 2rem;
+    padding: 1%; 
+  }
+  nav ul {justify-content: center;}
+  nav ul li { 
+    font-size: 1.6em;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  main { font-size: 1.6em;}
+  .accessibility_link { font-size: 2em;}
+  .copyright { font-size: 2em;}
+  table { font-size: 28px; }
+  th, td { padding: 10px;}
+
+.quiz div {
+  max-width: 70%;
+}
+
+}

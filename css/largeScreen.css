@@ -1,0 +1,228 @@
+body {
+max-width: 1600px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0px auto;
+  border: none;
+}
+
+
+figure {
+  margin: 0;
+}
+
+figure #hobby {
+  margin: 0;
+}
+
+#profile {
+  display: flex;
+  float: left;
+  padding: 7%;
+  width: 350px;
+}
+
+#hobby {
+  display: flex;
+  float: right;
+  padding: 3%;
+  width: 200px;
+  padding-top: 0;
+}
+
+main {
+  font-size: 1.3rem;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+
+#banner {
+  display: none;
+}
+
+.name_desktop {
+  font-weight: 900;
+  display: inline;
+}
+
+nav {
+  border-radius: 20px;
+  background-color: rgb(250, 246, 194);
+  font-size: 1.4rem;
+  padding: 10px 2%;
+  text-align: center;
+
+}
+
+nav ul {
+  display:inline;
+  padding: 0;
+  margin: 0;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+nav ul li { 
+  font-size: 1em;
+  padding: 0;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+
+
+
+.quiz button {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.quiz p {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quiz div {
+  border: 2px solid gray;
+  padding: 2.2%;
+  align-self: flex-end;
+}
+
+.quiz_main  p {
+  padding: 0;
+  margin: 0;
+}
+
+.quiz_main p {
+  padding: 5%;
+}
+
+.quiz_main img{
+  display: flex;
+  float: right;
+  padding: 3%;
+  width: 200px;
+  padding-top: 0;
+}
+
+.contact h1 {
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  padding-left: 30px;
+}
+
+.address {
+  color: black;
+}
+
+
+.name {
+  font-weight: 900;
+}
+
+table {
+  font-size: 1rem;
+  padding: 5%;
+}
+table caption {
+  padding: 1rem;
+}
+
+th, td {
+  padding: 1rem;
+}
+
+#canvas {
+  width: 400px;
+}
+
+#main_canvas {
+  padding: 3% ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+#main_canvas div {
+  margin: 3px;
+}
+
+#canvas_buttons button {
+  width: 100px;
+  padding: 0.5%;
+  font-size: medium;
+  margin: 5px;
+}
+
+.modules {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.modules div {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 30%;
+  width: 100%;
+  padding: 0;
+  border: none;
+}
+
+.modules figure {
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+}
+
+
+form {
+  padding-left: 30px;
+  color: rgb(161, 151, 0);
+}
+
+form input {
+  width: 200px;
+  height: 30px;
+  font-size: 1.2rem;
+}
+#email {
+  width: 300px;
+}
+form textarea {
+  font-size: 1.4rem;
+  width: 95%;
+}
+.accessibility p {
+  max-width: 70%;
+  padding-left: 6%;
+}
+
+.accessibility_link {
+  padding-bottom: 30px;
+  font-size: 1.3rem;
+  
+}
+
+.copyright {
+  font-size: 1.2rem;
+}
